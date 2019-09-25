@@ -1,0 +1,500 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html,body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,ul,li,img,fieldset,legend,label,input,textarea,p,blockquote,table,th,td
+{margin:0;padding:0;}
+
+html{
+	background-color:#ccc;
+}
+body
+{
+	background-color: #eee;
+	border:1px solid white;
+	width:960px;
+	margin:auto;
+	}
+
+#header
+{
+	height:150px;
+	background-color: #FFF;
+	font-size: xx-small;
+}
+#logo img
+{
+	width:354px;
+	height:150px;
+	float:left;
+	background-repeat:no-repeat;
+	border: none;
+	 
+}
+#logo1 img
+{
+	width:296px;
+	height:150px;
+	float:right;
+	}
+/* Menu-bar */
+#nav {
+	width:800px;
+	height: 35px;
+	margin:auto; 
+	margin-top:20px;
+	background: #f4f4f4;
+  	border:2px solid white;
+}
+#menu {
+	
+	padding: 10px 0 10px 0;  
+  	text-shadow: 0 1px 0 #fff;
+}
+
+#menu li
+{
+	border-right:1px dotted #f4f4f4;
+	padding: 0 0 10px 0;
+	display:inline;
+	list-style:none;
+}
+
+#menu a{
+	float: left;
+	padding: 0 25px;
+	color: #999;
+	text-transform: uppercase;
+	font: bold 12px/25px Arial, Helvetica;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #eee;
+}
+
+#menu a:hover{
+	color: green;
+	margin:auto;
+}
+
+/* menu-bar ends */
+
+/* slideshow css starts */
+#wowslider-container1  .ws_bullets {
+    top: 5px;
+    right: 10px;
+}
+#wowslider-container1 .ws_bullets .ws_bulframe {
+	top: 20px;
+}
+#wowslider-container1 .ws_bullets .ws_bulframe {
+	top: 20px;
+}
+#wowslider-container1 { 
+/*	overflow: hidden; */
+	zoom: 1; 
+	position: relative; 
+	width:650px;
+	height:330px;
+	margin:0 auto 33px auto;
+	z-index:100;
+	background-image: url(../img/bg.png);
+}
+#wowslider-container1 .ws_frame{
+	display:block;
+	position: absolute;
+	left:5px;
+	top:5px;
+	width:624px;
+	height:304px;
+	border:solid 8px black;
+	z-index:9;
+	opacity:0.3;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=30);
+}
+#wowslider-container1 .ws_shadow{
+	width:100%;
+	background: url(../img/shadow.png) left 100%;
+	height:83px;
+	position: absolute;
+	left:0;
+	bottom:-33px;
+	z-index:-1;
+}
+#wowslider-container1 .ws_images{
+	position: absolute;
+	left:5px;
+	top:5px;
+	width:640px;
+	height:320px;
+	overflow:hidden;
+}
+#wowslider-container1 .ws_images a{
+	color:transparent;
+}
+
+#wowslider-container1 .ws_images img{
+	top:0;
+	left:0;
+	border:none 0;
+	max-width: none;
+}
+#wowslider-container1 a{ 
+	text-decoration: none; 
+	outline: none; 
+	border: none; 
+}
+
+#wowslider-container1  .ws_bullets { 
+	font-size: 0px; 
+	padding: 10px; 
+	float: left;
+	position:absolute;
+	z-index:70;
+}
+#wowslider-container1  .ws_bullets div{
+	position:relative;
+	float:left;
+}
+#wowslider-container1 .ws_bullets a { 
+	margin: 0;
+	width:16px;
+	height:15px;
+	background: url(../img/bullet.png) left top;
+	float: left; 
+	text-indent: -1000px; 
+	position:relative;
+	color:transparent;
+}
+#wowslider-container1 .ws_bullets a:hover{ 
+	background-position: -16px 0;
+}
+#wowslider-container1 .ws_bullets a.ws_selbull{
+	background-position: right top;
+}
+#wowslider-container1 .ws_bullets a.ws_overbull{
+	background-position: 50% top;
+}
+#wowslider-container1 .ws_bullets a:hover{
+	background-position: 50% top;
+}
+#wowslider-container1 a.ws_next, #wowslider-container1 a.ws_prev {
+	position:absolute;
+	display:block;
+	top:50%;
+	margin-top:-28px;
+	z-index:60;
+	height: 56px;
+	width: 29px;
+	background-image: url(../img/arrows.png);
+}
+#wowslider-container1 a.ws_next{
+	background-position: 100% 0; 
+	right:-24px;
+}
+#wowslider-container1 a.ws_prev {
+	left:-24px;
+	background-position: 0 0; 
+}
+#wowslider-container1 .ws-title{
+	position: absolute;
+	bottom:18px;
+	left: 18px;
+	margin-right:23px;
+	z-index: 50;
+	padding:5px;
+	color: #FFF;
+	background:#000;
+    font-family: Tahoma,Arial,Helvetica;
+	font-size: 14px;
+	opacity:0.6;
+	filter:progid:DXImageTransform.Microsoft.Alpha(opacity=80);	
+}
+#wowslider-container1 .ws-title div{
+	padding-top:5px;
+	font-size: 12px;
+}#wowslider-container1 .ws_bullets  a img{
+	text-indent:0;
+	display:block;
+	top:15px;
+	left:-90px;
+	visibility:hidden;
+	position:absolute;
+    -moz-box-shadow: 0 0 5px #999999;
+    box-shadow: 0 0 5px #999999;
+    border: 5px solid #FFFFFF;
+}
+#wowslider-container1 .ws_bullets a:hover img{
+	visibility:visible;
+}
+
+#wowslider-container1 .ws_bulframe div div{
+	height:90px;
+	overflow:visible;
+	position:relative;
+}
+#wowslider-container1 .ws_bulframe div {
+	left:0;
+	overflow:hidden;
+	position:relative;
+	width:180px;
+}
+#wowslider-container1  .ws_bullets .ws_bulframe{
+	display:none;
+	overflow:visible;
+	position:absolute;
+	cursor:pointer;
+    -moz-box-shadow: 0 0 5px #999999;
+    box-shadow: 0 0 5px #999999;
+    border: 5px solid #FFFFFF;
+}
+#wowslider-container1 .ws_bulframe span{
+	display:block;
+	position:absolute;
+	top:-11px;
+	margin-left:-5px;
+	left:90px;
+	background:url(../img/triangle.png);
+	width:15px;
+	height:6px;
+}
+/* slideshow css ends */
+/*calender*/
+.calendar {
+				font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+				font-size: 0.9em;
+				background-color: #EEE;
+				color: #333;
+				border: 1px solid #DDD;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				border-radius: 4px;
+				padding: 0.2em;
+				width: 14em;
+			}
+			
+			.calendar a {
+				outline: none;
+			}
+			
+			.calendar .months {
+				background-color: #F6AF3A;
+				border: 1px solid #E78F08;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				border-radius: 4px;
+				color: #FFF;
+				padding: 0.2em;
+				text-align: center;
+			}
+			
+			.calendar .prev-month,
+			.calendar .next-month {
+				padding: 0;
+			}
+			
+			.calendar .prev-month {
+				float: left;
+			}
+			
+			.calendar .next-month {
+				float: right;
+			}
+			
+			.calendar .current-month {
+				margin: 0 auto;
+			}
+			
+			.calendar .months a {
+				color: #FFF;
+				text-decoration: none;
+				padding: 0 0.4em;
+				-moz-border-radius: 4px;
+				-webkit-border-radius: 4px;
+				border-radius: 4px;
+			}
+			
+			.calendar .months a:hover {
+				background-color: #FDF5CE;
+				color: #C77405;
+			}
+			
+			.calendar table {
+				border-collapse: collapse;
+				padding: 0;
+				font-size: 0.8em;
+				width: 100%;
+			}
+			
+			.calendar th {
+				text-align: center;
+			}
+			
+			.calendar td {
+				text-align: right;
+				padding: 1px;
+				width: 14.3%;
+			}
+			
+			.calendar td a {
+				display: block;
+				color: #1C94C4;
+				background-color: #F6F6F6;
+				border: 1px solid #CCC;
+				text-decoration: none;
+				padding: 0.2em;
+			}
+			
+			.calendar td a:hover {
+				color: #C77405;
+				background-color: #FDF5CE;
+				border: 1px solid #FBCB09;
+			}
+			
+			.calendar td.today a {
+				background-color: #FFF0A5;
+				border: 1px solid #FED22F;
+				color: #363636;
+			}
+
+/*calender*/
+/* main content css starts */
+#con_alo{
+margin-bottom: 10px;
+}
+#left_con{
+	width: 60%;
+	background-color: #46bee0;
+	border:1px solid #f1f1f1;
+	border-radius:20px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	box-shadow:2px 2px 5px #999;
+	-moz-box-shadow:2px 2px 5px #999;
+	-webkit-box-shadow:2px 2px 5px #999;
+	float: left;
+	text-align: justify;
+	min-height:300px;
+	margin:0 0 15px 15px;
+	padding:0 15px 30px 15px;
+}
+
+#left_con h1{
+	padding:10px 15px 0px 0px;
+}
+#left_con p{
+	padding:0 15px 30px 0px; 
+}
+#left_con img{
+	float:left;
+	margin-right: 20px;
+	border:1px solid white;
+}
+
+#right_con{
+	float: right;
+	width: 30%;
+	height:300px;
+	background-color: #46bee0;
+	border: 2px solid #2391ce;
+	border-radius: 9px 9px 9px 9px;
+	margin-bottom:25px;
+	margin-right:10px; 
+}
+#right_con h3{
+	padding:15px 15px 0px 15px;
+	border-bottom: 1px double white;
+	text-transform: uppercase;
+}
+#right_con p{
+	padding:0 15px 30px 15px;
+}
+#right_con ul{
+	list-style: none;
+	margin-top: 15px;
+	padding-left: 16px;
+}
+#right_con a {
+	text-decoration: none;
+	font-size:20px;
+	text-align:justify;
+	text-transform:uppercase;
+	line-height: 25px;
+}
+
+#user
+{ padding-left: 10px;
+	}
+#user .input
+{ padding-left: 10px;
+	margin-left: 10px;
+	width:30px;
+	}
+#exp
+{
+	background-color:#b9b0b6;
+	border-style:groove;
+	border-radius:16px 0;
+	color:#333134;
+	
+	}
+#care
+{
+	text-align:center;
+
+	list-style:circle;
+}
+
+/* main content css ends */
+/* footer css ends */
+	#footer
+{
+	clear: both;
+	border-top: 2px solid red;
+	text-align:center;
+	height:80px;
+	padding-top:12px;
+	color:#333;
+	}
+#footer p
+{
+	margin: 2px 0;
+}
+/* main content css ends */
+
+#formwrap{
+	margin:15px;
+}
+#formwrap #form{
+
+}
+#form .row{
+
+}
+#form .row .level{
+
+}
+#form .row .input{
+
+
+
+}
+#form .row .context{
+
+}
+#form .submit{
+
+}
+
+/*gorar dim*/
+#doctor ul{
+list-style:none;
+}
+#doctor li{
+	border:1px solid white;
+	height: 155px;
+	margin-bottom: 10px;
+	
+}
+#doctor img{
+	float: left;
+	border: 1px solid #cccccc;
+	height: 150px;
+	width:150px;
+}
