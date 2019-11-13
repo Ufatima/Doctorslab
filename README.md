@@ -7,7 +7,7 @@ Doctorslab is a online doctor's appointment system where patient can appoint a t
 2. Doctor has access to their profile, they can update their profile.
 3. patients can book the appoint of a desired doctor and cancel the appointmnt.
 
-# installation
+# Installation
 - download Xampp server to run the project using localhost
   [Xampp](https://pages.github.com/)
 - run apache server and mySQL server from Xampp control panel
